@@ -67,3 +67,39 @@ $ git status
 On branch BMB987
 nothing to commit, working tree clean
 
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ ^C
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git status
+On branch BMB987
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   konsola.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git add .
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git commit -m "Dodanie zawartości do pliku konsola.txt"
+[BMB987 04ba940] Dodanie zawartości do pliku konsola.txt
+ 1 file changed, 69 insertions(+)
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git log
+commit 04ba9404d03adc5e31ad1205c0035c845a8bb90f (HEAD -> BMB987)
+Author: Likeabooom <borkos44@gmail.com>
+Date:   Thu May 21 12:01:10 2020 +0200
+
+    Dodanie zawartości do pliku konsola.txt
+
+commit 28b41227dcb6483c493a59b268dc93a630ee0af9 (MB987/BMB987)
+Author: Likeabooom <borkos44@gmail.com>
+Date:   Thu May 21 11:47:24 2020 +0200
+
+    Dodanie pliku konsola.txt
+
