@@ -1,0 +1,69 @@
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop
+$ cd MB987/
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987
+$ git remote add MB987 https://github.com/LikeaBoooM/20L1G2.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987
+$ git init
+Initialized empty Git repository in C:/Users/Mati/Desktop/MB987/.git/
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (master)
+$ git remote add MB987 https://github.com/LikeaBoooM/20L1G2.git
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (master)
+$ git branch
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (master)
+$ git remote
+MB987
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (master)
+$ git remote -v
+MB987   https://github.com/LikeaBoooM/20L1G2.git (fetch)
+MB987   https://github.com/LikeaBoooM/20L1G2.git (push)
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (master)
+$ git checkout -b BMB987
+Switched to a new branch 'BMB987'
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ touch konsola.txt
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git status
+On branch BMB987
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        konsola.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git add .
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git commit -m "Dodanie pliku konsola.txt"
+[BMB987 (root-commit) 28b4122] Dodanie pliku konsola.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 konsola.txt
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git push MB987 BMB987
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/LikeaBoooM/20L1G2.git
+ * [new branch]      BMB987 -> BMB987
+
+Mati@DESKTOP-C81KPD4 MINGW64 ~/Desktop/MB987 (BMB987)
+$ git status
+On branch BMB987
+nothing to commit, working tree clean
+
